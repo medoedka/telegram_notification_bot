@@ -3,9 +3,9 @@
 This is telegam bot with two-level administration system (administrators and super administartors).
 It can helps you to share news and establish effective notification system within your company.
 
-The main idea is to make a list of your company employees in googlesheets and write down their departments for better useability.
-After that users can register in the bot by clicking /add command and write down their name and surname (or nickname, or something you like more). The most important thing is that the register name must be the same as in googlesheet name column. That's how the validation works.
-After this simple procedure when all your employees registred you can send them notification by calling /send function.
+The main idea is to make a list of your company employees in googlesheets and write down their departments for better usability.
+After that users can register in the bot by clicking /add command and write down their name and surname (or nickname, or something you like more). The most important thing is that the registered name must be the same as in googlesheet name column. That's how the validation works.
+After this simple procedure when all your employees are registered you can send them notification by calling /send function.
 
 How does it work?
 Make a special flag column in googlesheet (for example 'mailing (yes/no)') and put positive flag if you need to send this user any notifications.
